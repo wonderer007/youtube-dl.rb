@@ -22,7 +22,7 @@ module YoutubeDL
     def initialize(url, options = {})
       @url = url
       @options = YoutubeDL::Options.new(options)
-      @executable = 'youtube-dl'
+      @executable = 'yt-dlp'
     end
 
     # Returns usable executable path for youtube-dl

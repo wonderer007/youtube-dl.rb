@@ -25,7 +25,7 @@ module YoutubeDL
     # @param executable_path [String] executable to run. Defaults to usable youtube-dl.
     # @return [Cocaine::CommandLine] initialized Cocaine instance
     def cocaine_line(command, executable_path = nil)
-      executable_path = executable_path_for('youtube-dl') if executable_path.nil?
+      executable_path = executable_path_for('yt-dlp') if executable_path.nil?
       Cocaine::CommandLine.new(executable_path, command)
     end
 
