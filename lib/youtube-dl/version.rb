@@ -6,5 +6,5 @@
 module YoutubeDL
   # Semantic Version as well as the bundled binary version.
   # "(major).(minor).(teeny).(pre-release).(binary-version)"
-  VERSION = '0.3.1.2016.09.11.3'.freeze
+  VERSION = '0.3.1.2016.09.11.4'.freeze
 end
